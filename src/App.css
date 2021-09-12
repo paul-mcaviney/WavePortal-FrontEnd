@@ -16,12 +16,21 @@
   text-align: center;
   font-size: 32px;
   font-weight: 600;
+  margin-bottom: 75px;
 }
 
 .bio {
   text-align: center;
   color: gray;
   margin-top: 16px;
+  background-color: rgba(255,255,255,0.1);
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 75px;
+}
+
+.blue-word {
+  color: #62B5E4;
 }
 
 .waveButton {
