@@ -14,7 +14,7 @@
 
 .header {
   text-align: center;
-  font-size: 32px;
+  font-size: 38px;
   font-weight: 600;
   margin-bottom: 75px;
 }
@@ -27,6 +27,7 @@
   padding: 10px;
   border-radius: 20px;
   margin-bottom: 75px;
+  box-shadow: 0 0 15px #62B5E4;
 }
 
 .blue-word {
@@ -35,9 +36,17 @@
 
 .waveButton {
   cursor: pointer;
+  margin: 0 auto;
   margin-top: 16px;
-  padding: 8px;
-  border: 0;
-  border-radius: 5px;
-  
+  padding: 12px;
+  width: 200px;  
+  background-color: rgba(0,0,0,0);
+  color: #FFF;
+  border: 2px solid #62B5E4;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+
+.waveButton:hover {
+  box-shadow: 0 0 15px #62B5E4;
 }
